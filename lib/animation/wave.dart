@@ -32,7 +32,7 @@ class Wave extends AnimatedWidget {
               child: ClipPath(
                 clipper: WaveBottom(),
                 child: Opacity(
-                  opacity: 1,
+                  opacity: 0.8,
                   child: Container(
                     color: backgroundColor,
                     width: 1000,
